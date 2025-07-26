@@ -1,8 +1,8 @@
 /* 悬浮翻译按钮 */
 .floating-btn {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 15px;
     z-index: 1000;
     background: linear-gradient(135deg, #4361ee, #3a0ca3);
     color: white;
