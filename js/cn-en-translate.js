@@ -14,12 +14,12 @@ $(document).ready(function () {
     });
     /*中英文切换按钮*/
     const text = defaultLang =="cn"?"中/En":"En/中";
-    $("#nav__translate").text(text);
-    $("#translate").click(function (e) {
+    // $("#nav__translate").text(text);
+    $("#translateBtn").click(function (e) {
         const currentLang = localStorage.getItem("lang")? localStorage.getItem("lang") : defaultLang;
         const targetLang = currentLang == "cn" ? "en" : "cn"; // 目标语言
         const text = targetLang =="cn"?"中/En":"En/中";
-        $("#nav__translate").text(text);
+        // $("#nav__translate").text(text);
 
         $("[i18n]").i18n({
             defaultLang: targetLang,
