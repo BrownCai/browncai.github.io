@@ -1,117 +1,134 @@
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background: linear-gradient(135deg, #f5f7fa, #e4efe9);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        .container {
-            max-width: 1200px;
-            padding: 30px;
-            text-align: center;
-        }
-        
-        h1 {
-            color: #2c3e50;
-            font-weight: 600;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        
-        .description {
-            max-width: 650px;
-            margin: 0 auto 40px;
-            font-size: 18px;
-            line-height: 1.6;
-            color: #34495e;
-            text-align: center;
-        }
-        
-        .cards-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-        }
-        
-        .card {
-            width: 252px;
-            height: 230px; /* Reduced height since we removed elements */
-            background: white;
-            border-radius: 30px;
-            box-shadow: 15px 15px 30px rgba(190, 190, 190, 0.2),
-                        -15px -15px 30px rgba(255, 255, 255, 0.8);
-            transition: all 0.3s ease;
-            overflow: hidden;
-        }
-        
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
-            cursor: pointer;
-        }
-        
-        .img {
-            width: 100%;
-            height: 55%; /* Slightly increased to balance visual weight */
-            background: linear-gradient(135deg, #FF9A8B, #FF6A88, #FF99AC);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .img-content {
-            font-size: 15px;
-            font-weight: 600;
-            color: white;
-            text-align: center;
-            padding: 0 20px;
-        }
-        
-        .text {
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-        
-        .h3 {
-            font-size: 16px;
-            font-weight: 600;
-            color: #2c3e50;
-            margin: 0 0 8px 0;
-        }
-        
-        .p {
-            color: #7f8c8d;
-            font-size: 14px;
-            margin: 0;
-        }
-        
-        /* Media query for responsiveness */
-        @media (max-width: 600px) {
-            .card {
-                width: 280px;
-            }
-        }
-        
-        /* Animation for demonstration */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .card {
-            animation: fadeIn 0.6s ease-out;
-        }
-        
-        .card:nth-child(2) {
-            animation-delay: 0.2s;
-        }
-        
-        .card:nth-child(3) {
-            animation-delay: 0.4s;
-        }
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f5f7fa, #e4efe9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 30px;
+    /* text-align: center; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #3a0ca3, #4361ee, #4cc9f0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #4d7c8b;
+    background: #f8fbfd;
+    border-radius: 50px;
+    padding: 8px 20px;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+.h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0 0 8px 0;
+}
+
+.description {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #34495e;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 300px;
+    height: 270px; /* Reduced height since we removed elements */
+    background: white;
+    border-radius: 30px;
+    box-shadow: 15px 15px 30px rgba(190, 190, 190, 0.2),
+                -15px -15px 30px rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 60%; /* Slightly increased to balance visual weight */
+    background: linear-gradient(135deg, #FF9A8B, #FF6A88, #FF99AC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-content {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.p {
+    color: #7f8c8d;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .card {
+        width: 280px;
+    }
+}
+
+/* Animation for demonstration */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.card:nth-child(3) {
+    animation-delay: 0.4s;
+}
