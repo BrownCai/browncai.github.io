@@ -12,8 +12,8 @@ $(document).ready(function () {
             console.log("i18n is ready.");
         },
     });
-    /*中英文切换按钮*/
-    const text = defaultLang =="cn"?"中/En":"En/中";
+    // /*中英文切换按钮*/
+    // const text = defaultLang =="cn"?"中/En":"En/中";
     // $("#nav__translate").text(text);
     $("#translateBtn").click(function (e) {
         const currentLang = localStorage.getItem("lang")? localStorage.getItem("lang") : defaultLang;
