@@ -20,8 +20,8 @@
 
     <div class="container">
         <h1 i18n="title">项目集</h1>
-        <div class="description" i8n="description">
-            横向滚动卡片布局演示 - 可左右滑动查看更多内容
+        <div class="description">
+            <a class="content" i18n="subtitle">横向滚动卡片布局演示 - 可左右滑动查看更多内容</a>            
         </div>
         
         <h2 i18n="fpgaTitle">FPGA/硬件描述语言</h2>
@@ -52,35 +52,31 @@
         
         <div class="horizontal-scroll-container" id="javaCardContainer">
             <div class="cards-container" id="javaCardsContainer">
-                <div class="card">
-                    <div class="img">
-                        <div class="img-content">个人作品</div>
-                    </div>
+                <a class="card" href="https://github.com/BrownCai/PennyMatters" target="_blank" rel="noopener noreferrer">
+                    <img class="img" src="./img/pennymatters.jpg" alt="GateTris">
                     <div class="text">
-                        <p class="h3">网站设计</p>
-                        <p class="p">个人项目合集</p>
+                        <p class="h3">PennyMatters</p>
+                        <p class="p" i18n="pennymatters_description">description</p>
                     </div>
-                </div>
+                </a>
                 
-                <div class="card">
-                    <div class="img">
-                        <div class="img-content">课程设计项目</div>
-                    </div>
+                <a class="card" href="https://github.com/BrownCai/NotifierSE" target="_blank" rel="noopener noreferrer">
+                    <img class="img" src="./img/notifierse.png" alt="GateTris">
                     <div class="text">
-                        <p class="h3">Verilog</p>
-                        <p class="p">项目解释</p>
+                        <p class="h3">NotifierSE</p>
+                        <p class="p" i18n="notifierse_description">description</p>
                     </div>
-                </div>
+                </a>
                 
-                <div class="card">
+                <a class="card" href="https://github.com/BrownCai/CLI-Minesweeper" target="_blank" rel="noopener noreferrer">
                     <div class="img">
-                        <div class="img-content">项目7</div>
+                        <div class="img-content">CLI-Minesweeper</div>
                     </div>
                     <div class="text">
-                        <p class="h3">项目7</p>
-                        <p class="p">项目描述</p>
+                        <p class="h3">CLI-Minesweeper</p>
+                        <p class="p" i18n="climinesweeper_description">项目描述</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
@@ -91,7 +87,7 @@
 
 
 
-        <h2 i18n="cTitle">C语言</h2>
+        <h2 i18n="cTitle">C/C++</h2>
         
         <div class="horizontal-scroll-container">
             <div class="cards-container" id="cardsContainer">

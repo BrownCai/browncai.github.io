@@ -1,8 +1,13 @@
 {
     "title":"代码项目合集",
-    "description":"描述",
+    "subtitle":"本页面收录了本人部分以代码为主的工程，同时页面本身也是一个网页前端作品",
     "translateBtn":"English",
     "fpgaTitle":"FPGA/硬件描述语言",
     "javaTitle":"安卓/Java",
-    "gatetris_description":"从控制逻辑到显示逻辑完全由 硬件描述语言 实现的俄罗斯方块"
+    "cTitle":"C/C++",
+    "gatetris_description":"从控制逻辑到显示逻辑完全由 硬件描述语言 实现的俄罗斯方块。",
+    "pennymatters_description":"采用对话式交互的个人收支管理App，集合了数据可视化、OCR识别等功能。",
+    "notifierse_description":"一款极简充电提醒工具，通过​​多重通知机制​确保用户及时感知充电状态。",
+    "climinesweeper_description":"使用命令行进行交互的扫雷游戏。",
+    "sensordatahub_description":"基于混合并发架构的物联网网关系统，​​实时处理多节点传感器数据​​，​​实现全链路流水线化处理​​。"
 }

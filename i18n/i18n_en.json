@@ -1,8 +1,13 @@
 {
     "title":"Code Portfolio",
-    "description":"description",
+    "subtitle":"This page curates a selection of my primarily code-based engineering projects, while also serving as a front-end web development project itself.",
     "translateBtn":"EN -> 中",
     "fpgaTitle":"FPGA/HDL/Verilog",
     "javaTitle":"Android/Java",
-    "gatetris_description":"Tetris game "
+    "cTitle":"C Project",
+    "gatetris_description":"Tetris game fully implemented in HDL from control to display logic.",
+    "pennymatters_description":"Expense Management App with chat-style interaction, data visualization and OCR capabilities.",
+    "notifierse_description":"A minimalist charger notifier using popup, status bar, and alarm alerts for preset thresholds.",
+    "climinesweeper_description":"Minesweeper --Command Line Edition",
+    "sensordatahub_description":"An IoT gateway system with hybrid concurrency architecture handles multi-node sensor data in real-time."
 }
