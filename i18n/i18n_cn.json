@@ -1,5 +1,8 @@
 {
-    "title":"项目合集",
+    "title":"代码项目合集",
     "description":"描述",
-    "translateBtn":"English"
+    "translateBtn":"English",
+    "fpgaTitle":"FPGA/硬件描述语言",
+    "javaTitle":"安卓/Java",
+    "gatetris_description":"从控制逻辑到显示逻辑完全由 硬件描述语言 实现的俄罗斯方块"
 }

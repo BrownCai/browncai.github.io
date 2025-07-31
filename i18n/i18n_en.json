@@ -1,5 +1,8 @@
 {
-    "title":"Portfolio",
+    "title":"Code Portfolio",
     "description":"description",
-    "translateBtn":"中文"
+    "translateBtn":"EN -> 中",
+    "fpgaTitle":"FPGA/HDL/Verilog",
+    "javaTitle":"Android/Java",
+    "gatetris_description":"Tetris game "
 }

@@ -20,88 +20,38 @@
 
     <div class="container">
         <h1 i18n="title">项目集</h1>
-        <div class="description">
+        <div class="description" i8n="description">
             横向滚动卡片布局演示 - 可左右滑动查看更多内容
         </div>
         
-        <h2>团队协作项目</h2>
+        <h2 i18n="fpgaTitle">FPGA/硬件描述语言</h2>
         
         <div class="horizontal-scroll-container">
             <div class="cards-container" id="cardsContainer">
-                <div class="card">
-                    <div class="img">
-                        <div class="img-content">项目1</div>
-                    </div>
+                <a class="card" href="https://github.com/BrownCai/GateTris" target="_blank" rel="noopener noreferrer">
+                    <img class="img" src="./img/gatetris.png" alt="GateTris">
                     <div class="text">
-                        <p class="h3">项目1</p>
-                        <p class="p">描述1</p>
+                        <p class="h3">GateTris</p>
+                        <p class="p" i18n="gatetris_description">description</p>
                     </div>
-                </div>
-                
-                <div class="card">
-                    <div class="img">
-                        <div class="img-content">项目2</div>
-                    </div>
-                    <div class="text">
-                        <p class="h3">2项目2</p>
-                        <p class="p">描述2</p>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <div class="img">
-                        <div class="img-content">项目3</div>
-                    </div>
-                    <div class="text">
-                        <p class="h3">项目3</p>
-                        <p class="p">描述3</p>
-                    </div>
-                </div>
+                </a>
 
-                <div class="card">
-                    <div class="img">
-                        <div class="img-content">项目4</div>
-                    </div>
-                    <div class="text">
-                        <p class="h3">项目4</p>
-                        <p class="p">描述4</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="img">
-                        <div class="img-content">产品设计</div>
-                    </div>
-                    <div class="text">
-                        <p class="h3">项目5</p>
-                        <p class="p">一些描述</p>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <div class="img">
-                        <div class="img-content">项目6</div>
-                    </div>
-                    <div class="text">
-                        <p class="h3">团队项目6</p>
-                        <p class="p">解释</p>
-                    </div>
-                </div>
+                <!-- TO BE CONTINUE -->
             </div>
         </div>
         
         <!-- <div class="scroll-hint">← 左右滑动查看更多 →</div> -->
         
-        <!-- 可选导航控制 -->
-        <div class="navigation">
-            <button class="nav-btn" onclick="scrollCards(-1)">❮</button>
-            <button class="nav-btn" onclick="scrollCards(1)">❯</button>
+        <div class="navigation" id="fpgaNav">
+            <button class="nav-btn" onclick="scrollCards('fpgaNav', -1)">❮</button>
+            <button class="nav-btn" onclick="scrollCards('fpgaNav', 1)">❯</button>
         </div>
+
+
+        <h2 i18n="javaTitle">安卓/Java</h2>
         
-        <h2>个人项目集</h2>
-        
-        <div class="horizontal-scroll-container">
-            <div class="cards-container">
+        <div class="horizontal-scroll-container" id="javaCardContainer">
+            <div class="cards-container" id="javaCardsContainer">
                 <div class="card">
                     <div class="img">
                         <div class="img-content">个人作品</div>
@@ -133,6 +83,31 @@
                 </div>
             </div>
         </div>
+
+        <div class="navigation" id="javaNav">
+            <button class="nav-btn" onclick="scrollCards('javaCardContainer', -1)">❮</button>
+            <button class="nav-btn" onclick="scrollCards('javaCardContainer', 1)">❯</button>
+        </div>
+
+
+
+        <h2 i18n="cTitle">C语言</h2>
+        
+        <div class="horizontal-scroll-container">
+            <div class="cards-container" id="cardsContainer">
+                <a class="card" href="https://github.com/BrownCai/SensorDataHub" target="_blank" rel="noopener noreferrer">
+                    <img class="img" src="./img/sensor_data_hub.png" alt="GateTris">
+                    <div class="text">
+                        <p class="h3">SensorDataHub</p>
+                        <p class="p" i18n="sensordatahub_description">description</p>
+                    </div>
+                </a>
+
+                <!-- TO BE CONTINUE -->
+            </div>
+        </div>
+        
+
     </div>
 
     <footer>
