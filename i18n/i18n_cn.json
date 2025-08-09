@@ -5,9 +5,11 @@
     "fpgaTitle":"FPGA/硬件描述语言",
     "javaTitle":"安卓/Java",
     "cTitle":"C/C++",
+    "assemblyTitle":"汇编",
     "gatetris_description":"从控制逻辑到显示逻辑完全由 硬件描述语言 实现的俄罗斯方块。",
     "pennymatters_description":"采用对话式交互的个人收支管理App，集合了数据可视化、OCR识别等功能。",
     "notifierse_description":"一款极简充电提醒工具，通过​​多重通知机制​确保用户及时感知充电状态。",
     "climinesweeper_description":"使用命令行进行交互的扫雷游戏。",
-    "sensordatahub_description":"基于混合并发架构的物联网网关系统，​​实时处理多节点传感器数据​​，​​实现全链路流水线化处理​​。"
+    "sensordatahub_description":"基于混合并发架构的物联网网关系统，​​实时处理多节点传感器数据​​，​​实现全链路流水线化处理​​。",
+    "assembly_description":"包含基于 STM8S 系列微控制器的纯汇编裸机编程实践，用于深入理解计算机体系结构底层原理。"
 }
